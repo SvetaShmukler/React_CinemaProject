@@ -1,0 +1,430 @@
+.loginDiv {
+    height: 100.1vh;
+    margin:0px;
+    padding: 0.1px;
+    font-family: 'Open Sans', sans-serif;
+    background: #092756;
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top,  rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg,  #670d10 0%, #092756 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);     
+}
+
+.loginSmallDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30vh 0 0 -30vh;
+    width: 60vh;
+    height: 50vh;
+    border-radius: 20px;
+    border:cadetblue 3px solid;
+}
+
+.loginH1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vh;
+    margin-bottom: 2vh;
+    margin-top: 4.5vh;
+    color: cadetblue;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top:5vh;
+
+}
+
+.loginH2 { 
+    color: #fff; 
+    text-shadow: 0 0 5vh rgba(0,0,0,0.3); 
+    letter-spacing:1px; 
+    text-align:center; 
+}
+
+.loginInput { 
+    width: 80%; 
+    margin-bottom: 10px; 
+    background: rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(187, 192, 194, 0.3);
+    border: 1px solid rgba(177, 173, 173, 0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(207, 203, 203, 0.2);
+}
+
+.loginButton {
+    cursor: pointer;
+    background: #44c4e7;
+    width: 80%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-family: "Ariel";
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;  
+}
+
+.loginButton:hover {
+        color:#44c4e7;
+        background-color: white;
+}
+
+.basicButton {
+    background:#44c4e7;
+    width: 12vh;
+    border-radius: 10px;
+    font-family: "Ariel";
+    font-size: 3vh;
+    font-weight: 600;
+}
+.mainDiv {
+    height: 130vh;
+    margin:0px;
+    padding: 0.1px;
+    background-image: url(../Images/6ee40a8d-d148-4d73-a2e9-426e6fdcbd47.jpeg);
+}
+
+.MainPageHeader {
+    margin: auto;
+    margin-bottom: 3vh;
+    text-align: center;
+    background-color: #7e7f81;
+    border-bottom: solid black 2px;
+    padding: 1px;
+    height: 20vh;
+}
+
+.mainH1{
+    font-family: 'Droid serif',serif;
+    font-size: 7vh;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 10px;
+    color: rgb(29, 29, 31);
+    margin: auto;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.menuButtons{
+    background:#bcc56d;
+    width: 25vh;
+    height: 6vh;
+    border-radius: 10px;
+    font-family: "Ariel";
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.usersButton{
+    background:#bcc56d;
+    width: 14vh;
+    height: 4vh;
+    border-radius: 10px;
+    font-family: "Ariel";
+    font-size: 15px;
+    font-weight: 600;
+}
+.usersButton2{
+    background:#f1c343;
+    width: 14vh;
+    height: 4vh;
+    border-radius: 10px;
+    font-family: "Ariel";
+    font-size: 15px;
+    font-weight: 600;
+}
+.allUsersDiv {
+    text-align: center;
+    margin: auto;
+    width: 60vh;
+    height: 60vh;
+    background-color: #111111;
+    border-radius: 15px;
+    overflow: scroll;
+    
+}
+.oneUserDiv {
+    border: solid #7e7f81 2px;
+    width: 50vh;
+    text-align: center;
+    margin: auto;
+    font-size: 2vh;
+    color: rgb(187, 185, 185);
+    border-radius: 15px;
+}
+.usersH2 {
+    color: #f1c343; 
+    font-family: 'Droid serif', serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 44px;
+    margin: 1 0 12px;
+    text-align:center;
+}
+.addUserDiv {
+    border: solid 4px black;
+    width: 60vh;
+    background-color: #7e7f81;
+    text-align: center;
+    margin: auto;
+}
+.addUserButton{
+    background:#bcc56d;
+    width: 14vh;
+    height: 4vh;
+    border-radius: 10px;
+    font-family: "Ariel";
+    font-size: 15px;
+    font-weight: 600;
+}
+.editUserH2 {
+    color: black; 
+    font-family: 'Droid serif', serif;
+    font-size: 5vh;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 44px;
+    text-align:center;
+    margin: auto;
+}
+.blackH3 {
+    color: black; 
+    font-family: 'Droid serif', serif;
+    font-size: 3.5vh;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 44px;
+    text-align:center;
+    margin: auto;
+}
+
+.moviesH1{
+    font-family: 'Droid serif',serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 10px;
+    color: #e7e411e8;
+    border: rgb(141, 11, 11) 3px;
+    margin: auto;
+    text-align: center;
+    margin-top: 3vh;
+}
+.moviesH1:before{
+    content: "";
+    border-bottom:  4px solid #e7e411e8;
+    border-top: 4px solid #e7e411e8;
+    width: 20vh;
+    height:  0.1em;
+    position: absolute;
+    margin-left: -21vh;
+}
+.moviesH1:after{
+    content: "";
+    border-bottom:  4px solid #e7e411e8;
+    border-top: 4px solid #e7e411e8;
+    width: 20vh;
+    height:  0.1em;
+    position: absolute;
+    margin-left: 10px;
+}
+.yellowButton{
+    background:#e7e411e8;
+    width: 15vh;
+    height: 4vh;
+    border-radius: 10px;
+    font-family: "Ariel";
+    font-size: 15px;
+    font-weight: 600;
+}
+.greyButton{
+    background:#7e7f81;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-family: "Ariel";
+    font-size: 15px;
+    font-weight: 600;
+}
+.searchDiv{
+    text-align: center;
+    margin: auto;
+    height: 8vh;
+    width: 60vh;
+    font-weight: 600;
+    font-size: 3vh;
+    background-color: #bcc56d;
+    border-radius: 10px;
+}
+.searchInput{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #bcc56d;
+}
+
+
+.movieDiv{
+    border:solid 1px black;
+    border-radius: 8px;
+    min-width: 250px;
+    width: 17vw;
+    margin-left: 1.6vw;
+    background-color: #78a1ec;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    box-shadow: 4px 4px 8px #2b2b2b;
+    
+}
+.genresH4{
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.smallBut{
+    background:#7e7f81;
+    width: 13vh;
+    height: 5vh;
+    font-family: "Ariel";
+    font-size: 3vh;
+    font-weight: 600;
+}
+.MovieCompDiv {
+    display: inline-grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw;
+    grid-row-gap: 50px;
+    grid-row: 3;
+    grid-column-gap: 4.7vw;
+    background-color: #7e7f81;
+    width: 98.8vw;
+}
+.blackInput { 
+    width: 20vh; 
+    margin-bottom: 1vh; 
+    background:black;
+    padding: 1vh;
+    font-size: 1.8vh;
+    color: rgb(244, 247, 213);
+    border-radius: 6px;
+}
+.memDiv{
+    border:solid 1px #e7e411e8;
+    border-radius: 8px;
+    width: 28vw;
+    margin-left: 1.6vw;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 2vh;
+    color: rgb(187, 185, 185);
+}
+.nameH3 {
+    color: #f1c343; 
+    font-family: 'Droid serif', serif;
+    font-size: 3vh;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3vh;
+    margin: 1 0 12px;
+    text-align:center;
+}
+.yellowButton2{
+    background:#f1c343;
+    width: 7.5vh;
+    height: 3.5vh;
+    font-family: "Ariel";
+    font-size: 2vh;
+    font-weight: 600;
+}
+.yellowButton3{
+    background:#f1c343;
+    width: 25vh;
+    height: 3.5vh;
+    font-family: "Ariel";
+    font-size: 2vh;
+    font-weight: 600;
+}
+.whiteH4{
+    color:whitesmoke; 
+    font-family: 'Droid serif', serif;
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3vh;
+    margin:2vh;
+    text-align:center;
+}
+.subAddNewMovieDiv{
+    border:solid 2px #7e7f81;
+    width: 30vh;
+    margin:auto;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+.ulStyle{
+    list-style-type: none;
+    text-align: left;
+}
+.movieNameDiv {
+    border:solid 1px black;
+    border-radius: 8px;
+    min-width: 250px;
+    width: 35vw;
+    margin-left: 1.6vw;
+    background-color: #78a1ec;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    box-shadow: 4px 4px 8px #2b2b2b;
+}
+.whoWhatchedDiv{
+    border:solid 4px black;
+    background-color: #bd6bc0;
+    width: 18vW;
+    margin: auto;
+    font-size: 1;
+    margin-bottom: 1vh;
+}
+.moviesWatched{
+    border:solid 2px white;
+    width: 40vh;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.memBlackDiv{
+    border:solid 1px #e7e411e8;
+    background-color: black;
+    border-radius: 8px;
+    min-width: 250px;
+    width: 35vw;
+    margin-left: 1.6vw;
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 2vh;
+    color: rgb(187, 185, 185);
+}
+
+.blackH4 {
+    color: black; 
+    font-family: 'Droid serif', serif;
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 44px;
+    text-align:center;
+    margin: auto;
+}
+
+

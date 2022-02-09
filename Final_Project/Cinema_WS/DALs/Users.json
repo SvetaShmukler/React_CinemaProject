@@ -1,0 +1,16 @@
+[
+    {
+        "id":"61dd471f293701fa8d5a00fe",
+        "firstName":"Sveta",
+        "lastName":"Shmukler",
+        "createdDate":"01-01-2020",
+        "sessionTimeOut":"100"
+    },
+    {
+        "id":"61f5b9ba6d4435193f9016e0",
+        "firstName":"Moshe",
+        "lastName":"Cohen",
+        "createdDate":"01-02-2021",
+        "sessionTimeOut":"30"
+    }
+]
